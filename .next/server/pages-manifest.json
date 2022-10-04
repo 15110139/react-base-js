@@ -1,6 +1,13 @@
 {
   "/_app": "pages/_app.js",
+  "/blog": "pages/blog.html",
   "/_error": "pages/_error.js",
+  "/about": "pages/about.html",
+  "/contract": "pages/contract.html",
+  "/hiring": "pages/hiring.html",
+  "/": "pages/index.html",
+  "/service": "pages/service.html",
+  "/testimonials": "pages/testimonials.html",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/404": "pages/404.html"
 }

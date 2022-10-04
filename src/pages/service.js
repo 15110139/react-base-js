@@ -1,6 +1,6 @@
 import { Footer, Header } from '../components';
 
-function HomePage() {
+function ServicePage() {
   return (
     <>
       <Header />
@@ -10,4 +10,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default ServicePage;
