@@ -1,7 +1,0 @@
-.text-information {
-  @apply text-staspi-dark-blue text-[20px] font-light tracking-tight;
-}
-
-.text-title {
-  @apply text-staspi-dark-blue text-[30px] font-medium mb-[44px];
-}

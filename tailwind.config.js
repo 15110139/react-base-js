@@ -4,9 +4,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'staspi-orange': '#F07E2A',
-        'staspi-grey-dark': '#707070',
-        'staspi-dark-blue': '#202857',
+        'orange': '#F07E2A',
+        'grey': '#999999',
+        'grey-dark': '#494949',
+        'dark-blue': '#043873',
+        'white': '#FFFFFF'
       },
     },
   },

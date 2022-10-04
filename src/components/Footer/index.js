@@ -1,5 +1,5 @@
 import StaspiLogo from '../../assets/svg/staspi.svg';
-import './footer.css';
+import './footer.module.css';
 
 const Footer = () => {
   return (
@@ -8,13 +8,13 @@ const Footer = () => {
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
           <div className="ml-[30px] mb-[35px]">
             <div className="ml-[-30px]">
-              <img src={StaspiLogo} />
+              <StaspiLogo />
             </div>
             <div>
-              <p className="text-staspi-dark-blue text-[30px] font-medium">
+              <p className="text-dark-blue text-[30px] font-medium">
                 Better Experience
               </p>
-              <p className="text-staspi-dark-blue text-[30px] font-medium">
+              <p className="text-dark-blue text-[30px] font-medium">
                 Better Satisfaction
               </p>
             </div>
@@ -49,8 +49,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="h-[102px] bg-staspi-dark-blue grid justify-items-center items-center">
-        <p className="text-center text-staspi-orange font-medium">
+      <div className="h-[102px] bg-dark-blue grid justify-items-center items-center">
+        <p className="text-center text-orange font-medium">
           Staspi © 2022 ABC
         </p>
       </div>
